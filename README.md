@@ -21,8 +21,9 @@ Vous pouvez importer tous les fichiers CSV depuis un dossier donné et les conso
 Ceci est possible, en executant la commande suivante :
 
 ```bash
-python main.py import_data /chemin/vers/le/dossier
+python main.py import_data "/chemin/vers/le/dossier"
 ```
+
 
 ### Recherche de produits
 
