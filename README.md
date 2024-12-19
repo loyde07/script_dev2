@@ -38,7 +38,7 @@ Vous pouvez générer deux types de rapports :
 **Rapport par catégorie** :
 
 ```bash
-python main.py --report category
+python main.py --report "category"
 ```
 Rapport des produits en faible stock :
 
