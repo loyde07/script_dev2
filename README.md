@@ -1,7 +1,7 @@
 
 ## Utilisation du programme 
 
-### Prérequis 
+### Pré-requis 
 
 Avant de pouvoir utiliser ce programme, il faut s'assurer d'avoir installé la bibliothéque suivante : 
 
