@@ -1,0 +1,21 @@
+product,quantity,price,category
+Smartphone,25,800,mobile
+Laptop,10,1200,computing
+Tablet,18,400,mobile
+Desktop PC,6,1500,computing
+Monitor,15,300,computing
+Keyboard,40,25,accessories
+Mouse,50,20,accessories
+Headphones,30,80,accessories
+Smartwatch,20,250,wearables
+Fitness Tracker,15,150,wearables
+Television,8,1000,entertainment
+Home Theater,5,1200,entertainment
+Camera,12,500,photography
+Tripod,20,70,photography
+Microphone,10,200,photography
+Speaker,18,150,audio
+Gaming Console,10,500,gaming
+VR Headset,8,400,gaming
+External Hard Drive,25,100,storage
+USB Drive,50,20,storage

@@ -1,0 +1,21 @@
+product,quantity,price,category
+Dishwasher,10,450,kitchen
+Microwave,15,120,kitchen
+Vacuum Cleaner,8,250,cleaning
+Mop,20,15,cleaning
+Laundry Basket,30,10,cleaning
+Oven,5,500,kitchen
+Fridge,4,900,kitchen
+Toaster,25,35,kitchen
+Iron,12,60,cleaning
+Washing Machine,7,700,appliances
+Blender,14,50,kitchen
+Cookware Set,18,100,kitchen
+Air Purifier,10,300,appliances
+Fan,20,45,appliances
+Dehumidifier,6,400,appliances
+Table Lamp,22,25,decor
+Desk,5,150,furniture
+Chair,10,80,furniture
+Shelf,8,120,furniture
+Wardrobe,4,500,furniture

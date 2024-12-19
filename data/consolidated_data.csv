@@ -1,0 +1,81 @@
+product,quantity,price,category
+Smartphone,25,800,mobile
+Laptop,10,1200,computing
+Tablet,18,400,mobile
+Desktop PC,6,1500,computing
+Monitor,15,300,computing
+Keyboard,40,25,accessories
+Mouse,50,20,accessories
+Headphones,30,80,accessories
+Smartwatch,20,250,wearables
+Fitness Tracker,15,150,wearables
+Television,8,1000,entertainment
+Home Theater,5,1200,entertainment
+Camera,12,500,photography
+Tripod,20,70,photography
+Microphone,10,200,photography
+Speaker,18,150,audio
+Gaming Console,10,500,gaming
+VR Headset,8,400,gaming
+External Hard Drive,25,100,storage
+USB Drive,50,20,storage
+Dishwasher,10,450,kitchen
+Microwave,15,120,kitchen
+Vacuum Cleaner,8,250,cleaning
+Mop,20,15,cleaning
+Laundry Basket,30,10,cleaning
+Oven,5,500,kitchen
+Fridge,4,900,kitchen
+Toaster,25,35,kitchen
+Iron,12,60,cleaning
+Washing Machine,7,700,appliances
+Blender,14,50,kitchen
+Cookware Set,18,100,kitchen
+Air Purifier,10,300,appliances
+Fan,20,45,appliances
+Dehumidifier,6,400,appliances
+Table Lamp,22,25,decor
+Desk,5,150,furniture
+Chair,10,80,furniture
+Shelf,8,120,furniture
+Wardrobe,4,500,furniture
+Smartphone,25,800,mobile
+Laptop,10,1200,computing
+Tablet,18,400,mobile
+Desktop PC,6,1500,computing
+Monitor,15,300,computing
+Keyboard,40,25,accessories
+Mouse,50,20,accessories
+Headphones,30,80,accessories
+Smartwatch,20,250,wearables
+Fitness Tracker,15,150,wearables
+Television,8,1000,entertainment
+Home Theater,5,1200,entertainment
+Camera,12,500,photography
+Tripod,20,70,photography
+Microphone,10,200,photography
+Speaker,18,150,audio
+Gaming Console,10,500,gaming
+VR Headset,8,400,gaming
+External Hard Drive,25,100,storage
+USB Drive,50,20,storage
+Dishwasher,10,450,kitchen
+Microwave,15,120,kitchen
+Vacuum Cleaner,8,250,cleaning
+Mop,20,15,cleaning
+Laundry Basket,30,10,cleaning
+Oven,5,500,kitchen
+Fridge,4,900,kitchen
+Toaster,25,35,kitchen
+Iron,12,60,cleaning
+Washing Machine,7,700,appliances
+Blender,14,50,kitchen
+Cookware Set,18,100,kitchen
+Air Purifier,10,300,appliances
+Fan,20,45,appliances
+Dehumidifier,6,400,appliances
+Table Lamp,22,25,decor
+Desk,5,150,furniture
+Chair,10,80,furniture
+Shelf,8,120,furniture
+Wardrobe,4,500,furniture
