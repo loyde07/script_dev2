@@ -23,17 +23,23 @@ class InventoryHandler:
     @staticmethod
     def search_by_product(product_name):
         """
-        Recherche un produit dans l'inventaire consolidé.
+        Recherche d'un produit dans l'inventaire consolidé.
 
         Args:
             product_name (str): Le nom du produit à rechercher.
 
         Returns:
-            pandas.DataFrame: Un DataFrame contenant les lignes qui correspondent au produit recherché.
-
+            pandas.DataFrame: Un DataFrame contenant les lignes correspondant à la recherche. 
+        
         Raises:
-            FileNotFoundError: Si le fichier "data/consolidated_data.csv" n'existe pas.
+            FileNotFoundError: Si le fichier "data/consolidated_inventory.csv" n'existe pas. 
+        
         """
+        try : 
+            df = pd.read_csv("data/consolidated_inventory.csv")
+        except FileNotFoundError:
+            raise FileNotFoundError("Fichier consolidé introuvable. Veuillez d'abord importer les fichiers CSV.")
+
         df = InventoryHandler.load_data()
         results = df[df['product'].str.contains(product_name, case=False, na=False)]
         return results
@@ -47,14 +53,20 @@ class InventoryHandler:
             report_type (str): Le type de rapport à générer, soit "category" pour un rapport par catégorie,
                                 soit "low_stock" pour un rapport sur les produits avec un stock faible.
             threshold (int, optional): Le seuil de stock pour générer un rapport des stocks faibles. Utilisé uniquement pour
-                                       "low_stock". Par défaut à None.
+                                       "low_stock".
 
         Returns:
             str: Un rapport sous forme de chaîne de caractères.
 
-        Raises:
-            FileNotFoundError: Si le fichier "data/consolidated_data.csv" n'existe pas.
+         Raises:
+            FileNotFoundError: Si le fichier "data/consolidated_inventory.csv" n'existe pas.
+        
         """
+        try:
+            df = pd.read_csv("data/consolidated_inventory.csv")
+        except FileNotFoundError:
+            raise FileNotFoundError("Fichier consolidé introuvable. Veuillez d'abord importer les fichiers CSV.")
+
         df = InventoryHandler.load_data()
 
         if report_type == "category":

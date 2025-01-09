@@ -2,7 +2,7 @@ class DataConsolidator:
     @staticmethod
     def import_csv_files(data_path):
         """
-        Importe tous les fichiers CSV depuis un dossier spécifié et les fusionne en un seul DataFrame.
+        Importe et fusionne tous les fichiers CSV depuis un dossier spécifié
 
         Args:
             data_path (str): Le chemin vers le dossier contenant les fichiers CSV à importer.

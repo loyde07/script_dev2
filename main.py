@@ -6,16 +6,6 @@ from data_consolidator import DataConsolidator
 def import_csv(data_path):
     """
     Importe les fichiers CSV depuis un dossier spécifié et les enregistre dans un fichier consolidé.
-
-    Args:
-        data_path (str): Le chemin du dossier contenant les fichiers CSV à importer.
-
-    Returns:
-        None
-
-    Raises:
-        FileNotFoundError: Si le dossier spécifié n'existe pas.
-        Exception: Si une erreur survient lors de l'importation des fichiers CSV.
     """
     try:
         # Consolider les fichiers CSV
@@ -34,15 +24,6 @@ def import_csv(data_path):
 def search_product(search_term):
     """
     Recherche un produit ou une catégorie dans l'inventaire consolidé.
-
-    Args:
-        search_term (str): Le terme à rechercher dans l'inventaire.
-
-    Returns:
-        None
-
-    Raises:
-        Exception: Si une erreur survient lors de la recherche dans l'inventaire.
     """
     try:
         # Utilisez 'search_by_product' au lieu de 'search_product'
@@ -58,17 +39,8 @@ def search_product(search_term):
 
 def generate_report(report_type, threshold=None):
     """
-    Génère un rapport basé sur le type spécifié (par catégorie ou par stock faible).
+    Génère un rapport 
 
-    Args:
-        report_type (str): Le type de rapport à générer. Peut être "category" ou "low_stock".
-        threshold (int, optional): Le seuil de stock faible pour le rapport "low_stock". Par défaut, None.
-
-    Returns:
-        None
-
-    Raises:
-        Exception: Si une erreur survient lors de la génération du rapport.
     """
     try:
         if report_type == "category":
@@ -94,10 +66,8 @@ def generate_report(report_type, threshold=None):
 
 def interactive_shell():
     """
-    Boucle interactive permettant à l'utilisateur de saisir des commandes pour interagir avec le système de gestion d'inventaire.
+    Boucle interactive pour exécuter les commandes en continu
 
-    Returns:
-        None
     """
     print("Bienvenue dans le shell interactif du système de gestion d'inventaire.")
     print("Tapez 'help' pour afficher les commandes disponibles. Tapez 'exit' pour quitter.\n")
@@ -136,9 +106,6 @@ def interactive_shell():
 def parse_args():
     """
     Analyse les arguments passés en ligne de commande pour tester les fonctionnalités du programme.
-
-    Returns:
-        argparse.Namespace: Un objet contenant les arguments analysés.
     """
     parser = argparse.ArgumentParser(description="Outil de gestion des stocks.")
 
@@ -152,12 +119,6 @@ def parse_args():
 
 
 def main():
-    """
-    Fonction principale pour lancer le programme en fonction des arguments fournis.
-
-    Returns:
-        None
-    """
     args = parse_args()
 
     if args.import_data:
